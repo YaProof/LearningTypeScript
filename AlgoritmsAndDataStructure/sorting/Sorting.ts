@@ -10,6 +10,14 @@ export default class Sorting<T extends IComparable<T>> {
     this._sort = sort;
   }
 
+  public setValue(arr: T[]) {
+    this._arr = arr;
+  }
+
+  public setSort(sort: ISorting<T>) {
+    this._sort = sort;
+  }
+
   public sort(): T[] {
     return this._sort.sort(this._arr);
   }

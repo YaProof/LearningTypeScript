@@ -1,4 +1,4 @@
-import { IComparable } from "./system/IComparable";
+import { IComparable } from "../system/IComparable";
 
 export default class BinaryHeap<T extends IComparable<T>> {
   private _arr: T[];

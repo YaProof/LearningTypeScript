@@ -1,5 +1,5 @@
 const BinaryHeap = require('./BinaryHeap.js').default;
-const User = require('./testData/comparable.js').default;
+const User = require('../testData/comparable.js').default;
 
 let heap = new BinaryHeap();
 
